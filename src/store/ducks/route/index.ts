@@ -7,7 +7,8 @@ export const { Types, Creators } = createActions<RouteTypes>({
 });
 
 const INITIAL_STATE: RouteState = {
-  registred: false,
+  loged: false,
+  termsAccepted: false
 };
 
 const setRoute = (state: RouteState, action: RouteAction): RouteState => ({

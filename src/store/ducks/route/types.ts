@@ -1,5 +1,6 @@
 export interface RouteState {
-  registred?: boolean;
+  loged?: boolean;
+  termsAccepted?: boolean;
 }
 
 export interface RouteTypes {
